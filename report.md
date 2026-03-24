@@ -8,7 +8,7 @@ Instance:
 - `PuppyRaffle::rareImageUri` should be `constant`
 - `PuppyRaffle::legendaryImageUri` should be `constant`
 
-## [l-0] Storage variable in a loop should be cached
+## [L-0] Storage variable in a loop should be cached
 
 Everytime you call `players.length` you read the storage as opposed to more gas.
 
